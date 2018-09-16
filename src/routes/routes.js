@@ -1,7 +1,7 @@
 import { Route, BrowserRouter } from "react-router-dom";
 import React from "react";
 import Home from "../containers/HomeContainer";
-import Book from "../components/book";
+import Book from "../containers/BookContainer";
 import Login from "../components/login";
 
 export default () => {

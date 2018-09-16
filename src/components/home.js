@@ -10,11 +10,11 @@ class Home extends React.Component{
   render(){
     const { books } = this.props;
     return (
-      <div> 
+      <div>
         {books.map((book)=>{
           return (
             <li>
-            <Link to={{ pathname: '/book', state:{ book : book.isbn}}}>{book.title}</Link>
+            <Link to={{ pathname: '/book', state:{ book : book}}}>{book.title}</Link>
             </li>
           )
         })}

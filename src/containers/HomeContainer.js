@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import { fetchBooks } from '../actions/index';
 
 const mapStateToProps = (state) => {
-  console.log("map  state ");
   return {
     books:state.homeReducer.books
   }
