@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export const axiosInstance = axios.create({
-  baseURL: 'http://localhost:8005/'
+  baseURL: 'https://library-mongo-service.herokuapp.com/'
 });

@@ -11,6 +11,7 @@ class Home extends React.Component{
     const { books } = this.props;
     return (
       <div>
+        <Link to={{pathname:'/reader'}}>Reader</Link>
         {books.map((book)=>{
           return (
             <li>
